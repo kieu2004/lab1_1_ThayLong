@@ -1,0 +1,143 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px auto 30px;
+}
+
+.logo p:first-child {
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+}
+
+.logo p:first-child span {
+  font-weight: bold;
+}
+
+.logo p:last-child {
+  font-size: 0.8rem;
+  color: #c0bcbc;
+  margin-top: -30px;
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.connect .icon {
+  display: flex;
+  gap: 5px;
+}
+
+.connect span {
+  font-size: 1rem;
+  color: #c0bcbc;
+}
+
+.connect .icon div {
+  display: flex;
+  font-size: 1.2rem;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c0bcbc;
+}
+
+.connect .icon i {
+  color: #fff;
+  margin: auto;
+}
+
+/* main hero */
+.hero {
+  background-color: #333;
+}
+
+.hero .content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.left_hero {
+  position: relative;
+  display: flex;
+  padding-top: 130px;
+}
+
+.left_hero img:last-of-type {
+  position: absolute;
+  right: -225px;
+  bottom: -35px;
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.right_hero {
+  width: 50%;
+  padding-top: 60px;
+}
+
+.right_hero p:first-of-type {
+  text-transform: uppercase;
+  color: #2dc0e8;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.right_hero h1 {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 2.9rem;
+  letter-spacing: 1px;
+  line-height: 50px;
+  margin-top: -5px;
+}
+
+.right_hero p:last-of-type {
+  color: #b1afaf;
+  font-size: 1rem;
+  margin-top: -5px;
+  letter-spacing: -0.75;
+  line-height: 20px;
+}
+
+.right_hero .live {
+  background-color: #2dc0e8;
+  display: inline-block;
+  padding: 13px;
+  margin-top: 10px;
+}
+
+.right_hero .live i,
+.live span {
+  color: #fff;
+}
+
+.live span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
